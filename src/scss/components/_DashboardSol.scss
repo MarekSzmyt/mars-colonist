@@ -1,0 +1,154 @@
+@import "../config/fonts.scss";
+@import "../config/colors.scss";
+@import "../utils/mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font: $font-body-s-700;
+  text-transform: uppercase;
+  @include shadow-primary;
+}
+
+.DashboardSol {
+  &-container {
+    max-height: 448px;
+    min-height: 424px;
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-col-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &-atmosphere {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      margin-top: 24px;
+    }
+
+    span:nth-of-type(3) {
+      margin-top: 8px;
+    }
+  }
+
+  &-title {
+    &-large {
+      font: $font-header-xl;
+    }
+    
+    &-medium {
+      font: $font-body-l;
+    }
+
+    &-small {
+      font: $font-body-m-400;
+    }
+
+    &-title-large {
+        font: $font-header-xl;
+      }
+  }
+  
+  &-conditions div{
+    max-width: 90%;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
+
+  &-wind {
+    padding: 0 24px;
+    border-left: 2px solid $color-bg-200;
+
+    &-column {
+      height: 100%;
+      margin-top: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &-speed {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 16px;
+
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    &-diagram {
+      max-width: 200px;
+      align-self: center;
+    }
+  }
+}
+
+@mixin icon-24($url) {
+  content: url($url);
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.icon {
+  &-high::before {
+    @include icon-24("../../images/icons/arrow-long.svg");
+
+  }
+  &-low::before {
+    @include icon-24("../../images/icons/arrow-long.svg");
+    rotate: 180deg;
+  }
+
+  &-pre::before {
+    @include icon-24("../../images/icons/bar.svg");
+  }
+
+  &-wind::before {
+    @include icon-24("../../images/icons/wind.svg");
+  }
+}
+
+@media (max-width: 700px) {
+  .DashboardSol {
+    &-container {
+      width: calc(100vw - 32px);
+      max-height: 100%;
+      flex-direction: column;
+    }
+
+    &-conditions {
+      border-top: 2px solid $color-bg-200;
+      margin-top: 24px;
+      padding-top: 24px;
+    }
+
+    &-wind {
+      border-left: none;
+      border-top: 2px solid $color-bg-200;
+      margin-top: 24px;
+      padding: 24px 0 0 0;
+    }
+  }
+}

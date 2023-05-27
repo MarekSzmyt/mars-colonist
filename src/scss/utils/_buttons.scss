@@ -1,0 +1,27 @@
+@import "../config/fonts.scss";
+@import "../config/colors.scss";
+
+  .btn {
+    color: white;
+    font: $font-action-s;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+
+    background-color: transparent;
+    min-width: 120px;
+    padding: 10px 16px;
+    border: 2px solid $color-primary-100;
+    box-sizing: border-box;
+    transition: 200ms;
+
+    &:hover {
+      color: $color-bg-400;
+      background-color: $color-primary-100;
+    }
+
+    &:focus {
+      color: $color-bg-400;
+      background-color: $color-primary-200;
+    }
+  }

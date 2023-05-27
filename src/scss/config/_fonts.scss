@@ -1,0 +1,23 @@
+// Font
+$font-family: 'InputSans', Menlo, Monaco, Consolas, 'Courier New', monospace;
+
+// Header
+$font-header-xl: bold 56px/1em $font-family;
+$font-header-l: bold 32px/1em $font-family;
+$font-header-m: bold 20px/1.2em $font-family;
+$font-header-s: bold 15px/1.2em $font-family;
+
+// Body
+$font-body-l: bold 24px/1em $font-family;
+$font-body-m-400: normal 16px/1.5em $font-family;
+$font-body-m-700: bold 16px/1.5em $font-family;
+$font-body-s-400: normal 14px/1em $font-family;
+$font-body-s-700: bold 14px/1em $font-family;
+
+// Input
+$font-input-m: normal 16px/1.2em $font-family;
+$font-input-s: normal 12px/1.2em $font-family;
+
+// Action
+$font-action-m: bold 16px/1.2em $font-family;
+$font-action-s: bold 14px/1em $font-family;

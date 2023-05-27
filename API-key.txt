@@ -1,0 +1,12 @@
+Generate API Key
+
+Your API key for szmytmarek@gmail.com is:
+tpszRr3XlPK7bToeRcUS9KmUyLogbneOKXe6B6Y2
+
+You can start using this key to make web service requests. Simply pass your key in the URL when making a web request. Here's an example:
+
+https://api.nasa.gov/planetary/apod?api_key=tpszRr3XlPK7bToeRcUS9KmUyLogbneOKXe6B6Y2
+
+For additional support, please contact us. When contacting us, please tell us what API you're accessing and provide the following account details so we can quickly find you:
+Account Email: szmytmarek@gmail.com
+Account ID: 8d4b6006-1b04-4e3a-b8a8-773663cb04e0

@@ -1,0 +1,28 @@
+@import "../config/fonts.scss";
+@import "../config/colors.scss";
+
+.header {
+  width: 100%;
+  text-transform: uppercase;
+  display: flex;
+
+  &--large h2 {
+    font: $font-header-m;
+    padding: 8px 16px;
+    background-color: $color-bg-200;
+  }
+
+  &::after {
+    content: "";
+    flex: 1;
+    border-bottom: 4px solid $color-bg-200;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    &--large h2 {
+      font: $font-header-s;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+@import "../config/fonts.scss";
+@import "../config/colors.scss";
+@import "../utils/mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Forecast {
+  &-container {
+    max-width: 1392px;
+    margin: 0 auto;
+    padding: 0 24px;
+    height: calc(100vh - (82px + 62px));
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: auto 318px;
+    grid-template-areas: 
+    ". info info ."
+    "week week week week";
+    column-gap: 24px;
+    row-gap: 48px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-info {
+    width: 100%;
+    height: calc(100% - 80px);
+    grid-area: info;
+  }
+
+  &-week {
+    display: grid;
+    grid-template-columns: repeat(8, calc(20% - 40px));
+    grid-template-rows: minmax(150px, 1fr);
+    column-gap: 24px;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    grid-area: week;
+  }
+}
+
+//RWD
+
+@media (max-width: 700px) {
+  .Forecast {
+    &-container {
+      margin: 24px auto;
+      padding: 0 16px;
+      height: 100%;
+
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 318px;
+      align-items: start;
+      grid-template-areas: 
+      "info"
+      "week";
+      column-gap: 24px;
+      row-gap: 48px;
+    }
+
+    &-week {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import "../config/fonts.scss";
+@import "../config/colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.CurrentTasks {
+  &-container {
+    padding: 24px;
+    border: 2px solid $color-primary-100;
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    ul {
+      list-style: none;
+      width: 100%;
+    }
+  }
+}
+
+
+//RWD
+
+@media (max-width: 700px) {
+  .CurrentTasks {
+    &-container {
+      padding: 0;
+      border: none;
+      margin: 24px 0;
+    }
+  }
+}

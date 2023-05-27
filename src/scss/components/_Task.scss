@@ -1,0 +1,36 @@
+@import "../config/fonts.scss";
+@import "../config/colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Task {
+  &-item {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-checked {
+    text-decoration-line: line-through;
+  }
+}
+
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid white;
+  margin-right: 12px;
+
+  &:checked {
+    background:url(../../images/icons/check.svg) no-repeat center;
+  }
+}

@@ -1,0 +1,70 @@
+@import "../config/fonts.scss";
+@import "../config/colors.scss";
+@import "../utils/mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Footer {
+  &-container {
+    max-width: 1392px;
+    margin: 0 auto;
+    padding: 0 24px;
+    height: 54px;
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 3fr;
+    align-items: center;
+    column-gap: 24px;
+  }
+
+  &-title {
+    border-top: 8px solid $color-primary-o-25;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      font: $font-body-s-400;
+      text-transform: uppercase;
+    }
+  
+    strong {
+      font: $font-body-s-700;
+      @include shadow-primary;
+    }
+
+    
+    &:first-child {
+      border-color: $color-primary-200;
+    }
+    
+    &:nth-child(2) strong::before {
+      content: "";
+      background-color: $color-correct;
+      width: 6px;
+      height: 6px;
+      margin: 0 8px;
+
+      display: inline-flex;
+      vertical-align: 10%;
+    }
+  }
+}
+
+//RWD
+
+@media (max-width: 700px) {
+  .Footer {
+    &-container {
+      grid-template-columns: 1fr;
+      row-gap: 24px;
+      height: 100%;
+      padding: 0 16px;
+      margin-bottom: 24px;
+    }
+  }
+}

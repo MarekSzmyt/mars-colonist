@@ -1,0 +1,41 @@
+<svg width="311" height="311" viewBox="0 0 311 311" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M125.078 64.2344L106.797 24.0156" stroke="white" stroke-width="2"/>
+<path d="M83.0312 85.5625L61.7031 51.4375" stroke="white" stroke-width="2"/>
+<path d="M259.75 78.25L258.506 85.2978C258.127 87.4464 258.461 89.6601 259.457 91.6012L279.922 131.482C281.058 133.695 282.978 135.406 285.308 136.28L291.438 138.578" stroke="white" stroke-width="2"/>
+<path d="M65.9687 57.8969L70.1869 58.6936C72.4659 59.124 74.8237 58.7489 76.8567 57.6323L104.972 42.1906C107.134 41.0035 108.781 39.0596 109.596 36.7323L111.063 32.5469" stroke="white" stroke-width="2"/>
+<path d="M249.357 86.1719L248.212 92.315C247.792 94.5689 248.159 96.8986 249.252 98.9141L269.067 135.463C270.244 137.635 272.184 139.294 274.513 140.12L280.469 142.234" stroke="white" stroke-width="2"/>
+<path d="M72.0625 67.7134L76.1326 68.4675C78.3744 68.8829 80.6908 68.5198 82.698 67.4383L109.896 52.7833C112.074 51.6103 113.739 49.6722 114.57 47.3433L115.937 43.5156" stroke="white" stroke-width="2"/>
+<path d="M201.25 227.547V215.969L232.938 186.109L283.516 214.141" stroke="white" stroke-width="2"/>
+<path d="M188.453 84.9531L242.078 44.125" stroke="white" stroke-width="2"/>
+<path d="M47.0781 67.2812L82.4219 84.9531" stroke="white" stroke-width="2"/>
+<path d="M19.0469 127L46.4688 139.188" stroke="white" stroke-width="2"/>
+<path d="M258.531 149.547L295.094 137.359" stroke="white" stroke-width="2"/>
+<path d="M232.328 98.9688L268.281 72.1562" stroke="white" stroke-width="2"/>
+<path d="M39.7656 233.641L67.1875 215.969L46.4688 139.188L83.0312 85.5625L125.078 64.2344V10H188.453V85.5625L231.719 98.9688L258.531 150.156V181.844L251.219 195.25" stroke="white" stroke-width="2"/>
+<path d="M111.062 287.266V226.938H201.25V287.266" stroke="white" stroke-width="2"/>
+<circle cx="156.156" cy="155.641" r="140.156" stroke="white" stroke-width="2"/>
+<circle cx="156.156" cy="155.641" r="30.4688" stroke="white" stroke-width="2"/>
+<rect x="135.438" y="134.922" width="41.4375" height="41.4375" rx="9" stroke="white" stroke-width="2"/>
+<path d="M120.812 291.531V301.891H190.891V291.531" stroke="white" stroke-width="2"/>
+<path d="M184.188 227.547L184.187 221.453L129.344 221.453L129.344 227.547" stroke="white" stroke-width="2"/>
+<path d="M31.2344 219.625L51.3438 215.359L32.4531 142.234L16.6094 146.5" stroke="white" stroke-width="2"/>
+<path d="M201.472 207.162L224.74 183.893" stroke="white" stroke-width="2"/>
+<path d="M206.212 211.901L229.48 188.633" stroke="white" stroke-width="2"/>
+<path d="M210.952 216.641L234.22 193.373" stroke="white" stroke-width="2"/>
+<path d="M215.691 221.381L238.96 198.113" stroke="white" stroke-width="2"/>
+<path d="M220.431 226.121L243.699 202.853" stroke="white" stroke-width="2"/>
+<path d="M225.171 230.861L248.439 207.593" stroke="white" stroke-width="2"/>
+<path d="M229.911 235.601L253.179 212.332" stroke="white" stroke-width="2"/>
+<path d="M234.651 240.34L257.919 217.072" stroke="white" stroke-width="2"/>
+<path d="M239.39 245.08L262.659 221.812" stroke="white" stroke-width="2"/>
+<rect x="197.594" y="203.284" width="32.4293" height="64.5938" transform="rotate(-45 197.594 203.284)" stroke="white" stroke-width="2"/>
+<rect x="268.281" y="158.078" width="15.8438" height="9.75" stroke="white" stroke-width="2"/>
+<rect width="12.7027" height="5.38988" rx="2.69494" transform="matrix(0.4387 0.898633 -0.898633 0.438702 257.281 123.953)" stroke="white" stroke-width="2"/>
+<rect x="103.141" y="63.0474" width="12.7027" height="5.38988" rx="2.69494" transform="rotate(-26.021 103.141 63.0474)" stroke="white" stroke-width="2"/>
+<rect width="12.7027" height="5.38988" rx="2.69494" transform="matrix(0.438701 0.898633 -0.898633 0.438702 246.312 104.453)" stroke="white" stroke-width="2"/>
+<rect x="83.6406" y="74.0161" width="12.7027" height="5.38988" rx="2.69494" transform="rotate(-26.021 83.6406 74.0161)" stroke="white" stroke-width="2"/>
+<rect x="218.159" y="68.9077" width="28.044" height="28.044" rx="2" transform="rotate(-37.3522 218.159 68.9077)" stroke="white" stroke-width="2"/>
+<rect x="203.688" y="45.1406" width="16.7402" height="16.7402" rx="2" transform="rotate(-37.3522 203.688 45.1406)" stroke="white" stroke-width="2"/>
+<circle r="3.04688" transform="matrix(1 0 0 -1 238.422 70.9375)" stroke="white" stroke-width="2"/>
+<circle r="4.26562" transform="matrix(1 0 0 -1 215.266 46.5625)" stroke="white" stroke-width="2"/>
+</svg>
